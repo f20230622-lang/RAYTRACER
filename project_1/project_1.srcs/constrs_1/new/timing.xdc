@@ -1,0 +1,5 @@
+create_clock -period 12.000 -name sys_clk [get_ports clk]
+set_property -dict {PACKAGE_PIN W5  IOSTANDARD LVCMOS33} [get_ports clk]
+set_property -dict {PACKAGE_PIN U18 IOSTANDARD LVCMOS33} [get_ports btnC]
+set_property -dict {PACKAGE_PIN U16 IOSTANDARD LVCMOS33} [get_ports led0]
+set_property -dict {PACKAGE_PIN A18 IOSTANDARD LVCMOS33} [get_ports RsTx]
