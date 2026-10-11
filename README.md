@@ -2,8 +2,6 @@
 
 A fixed-point (Q16.16) **ray tracer** written in Verilog, with a Python toolchain that exports scenes and produces a bit-accurate golden model. The RTL output is verified pixel for pixel against that model, and the full design is implemented for an Artix-7.
 
-> **Status:** verified in simulation (Vivado xsim) and implemented for the Artix-7 `xc7a35tcpg236-1` with all timing constraints met. It has not yet been run on a physical board.
-
 | Float reference | Fixed-point golden | RTL simulation |
 |---|---|---|
 | ![](rt_float.png) | ![](golden_rt.png) | ![](hw_rt.png) |
